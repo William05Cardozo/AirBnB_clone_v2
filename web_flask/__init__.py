@@ -8,7 +8,7 @@ Listening on 0.0.0.0 in Port: 5000
 from flask import Flask
 app = Flask(__name__)
 
-@app.route('/', stric_slasher=False)
+@app.route('/', strict_slashes=False)
 def hello_HNBN():
     # Return a message
     return "Hello HBNB!"
