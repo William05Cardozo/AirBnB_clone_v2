@@ -8,6 +8,7 @@ from datetime import datetime
 
 
 def do_pack():
+    """Function Do_Pack"""
     ttime = datetime.now().strftime("%Y%m%d%H%M%S")
     try:
         local("mkdir -p versions")
