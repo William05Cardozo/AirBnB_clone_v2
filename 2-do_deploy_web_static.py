@@ -6,7 +6,7 @@ contents of the web_static folder of your AirBnB Clone
 from os import *
 from fabric.api import *
 env.user = 'ubuntu'
-env.hosts = ['35.237.1.254', '54.197.195.161']
+env.hosts = ['34.138.174.14', '18.207.116.48']
 
 
 def do_deploy(archive_path):
