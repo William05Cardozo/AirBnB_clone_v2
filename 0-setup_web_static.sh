@@ -5,7 +5,7 @@ sudo apt-get install -y nginx
 sudo mkdir -p /data/
 sudo mkdir -p /data/web_static/
 sudo mkdir -p /data/web_static/releases/
-sudo mkdir -p /dara/web_static/shared/
+sudo mkdir -p /data/web_static/shared/
 sudo mkdir -p /data/web_static/releases/test
 echo "<!DOCTYPE html>
 <html>
