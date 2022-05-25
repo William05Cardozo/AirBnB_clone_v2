@@ -2,11 +2,11 @@
 # this script in Bash install ang program a new server
 sudo apt-get -y update
 sudo apt-get install -y nginx
-sudo mkdir /data/
-sudo mkdir /data/web_static/
-sudo mkdir /data/web_static/releases/
-sudo mkdir /dara/web_static/shared/
-sudo mkdir /data/web_static/releases/test/
+sudo mkdir -p /data/
+sudo mkdir -p /data/web_static/
+sudo mkdir -p /data/web_static/releases/
+sudo mkdir -p /dara/web_static/shared/
+sudo mkdir -p /data/web_static/releases/test/
 echo "<!DOCTYPE html>
 <html>
   <head>
