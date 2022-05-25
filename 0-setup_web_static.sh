@@ -11,7 +11,7 @@ sudo echo "<html>
   <body>
     Holberton School
   </body>
-</hmtml>" | sudo tee /data/web_static/releases/test/index.html
+</html>" | sudo tee /data/web_static/releases/test/index.html
 sudo ln -sf /data/web_static/releases/test /data/web_static/current
 sudo chwon -R ubuntu:ubuntu /data
 sed -i '/listen 80 default_server/a location /hbnb_static/ { alias /data/web_static/current/;}' /etc/nginx/sites-available/default
