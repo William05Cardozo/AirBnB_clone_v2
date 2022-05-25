@@ -1,4 +1,7 @@
 #!/usr/bin/python3
+"""
+Start a FLASK in a Web Aplication
+"""
 
 from flask import *
 app = Flask(__name__)
@@ -6,6 +9,7 @@ app = Flask(__name__)
 
 @app.route('/', strict_slashes=False)
 def flask_0():
+    """returns Hello HBNB!"""
     return(“Hello HBNB!”)
 
 
