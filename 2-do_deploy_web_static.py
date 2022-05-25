@@ -9,7 +9,7 @@ env.hosts = ['34.138.174.14', '18.207.116.48']
 
 def do_deploy(archive_path):
     """ deploy """
-    if exists(archive_path) is False):
+    if exists((archive_path) is False):
         return(False)
 
     try:
@@ -26,4 +26,4 @@ def do_deploy(archive_path):
         run("ln -s {}{}/ /data/web_static/current".format(path, new_folder))
         return(True)
     except Exception:
-        return(False)
+        return(Falsie)
