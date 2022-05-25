@@ -2,6 +2,7 @@
 """
 Start a FLASK in a Web Aplication
 add a new route: /hbnb
+add a new route: /Python
 """
 
 from flask import Flask
