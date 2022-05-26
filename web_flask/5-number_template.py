@@ -6,7 +6,7 @@ add a new route: /Python
 add a new route: /number
 """
 
-from flask import Flask
+from flask import Flask, render_template
 app = Flask(__name__)
 
 
@@ -46,7 +46,7 @@ def Is_Number(n):
 @app.route('/number_template/<int:n>', strict_slashes=False)
 def number_temp(n):
     """Return a HTML PAge if the paramater is a number"""
-    return(render_template('5-number.html', num=n))
+    return(render_template('5-number.html', number=n))
 
 
 if __name__ == '__main__':
