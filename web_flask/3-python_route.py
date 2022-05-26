@@ -25,15 +25,15 @@ def hbnh():
 def display_C(text):
     """Return the letter C"""
     text = text.replace("_", " ")
-    return("C %s" % text)
+    return("C {}".format(text))
 
 
-@app.route('/python')
+@app.route('/python/')
 @app.route('/python/<text>', strict_slashes=False)
 def display_Python(text="is cool"):
     """Return the String"""
     text2 = text.replace("_", " ")
-    return("Python {}".format(text2)
+    return("Python {}".format(text2))
 
 
 if __name__ == '__main__':
