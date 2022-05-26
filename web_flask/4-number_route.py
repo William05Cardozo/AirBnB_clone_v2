@@ -36,7 +36,6 @@ def display_Python(text="is cool"):
     return("Python {}".format(text2))
 
 
-@app.route('/number/')
 @app.route('/number/<int:n>', strict_slashes=False)
 def Is_Number(n):
     """Return if a parameter is a number"""
